@@ -11,7 +11,7 @@ import {
  * The maximum number of sticker packs a commit/PR is allowed to remove from the
  * directory.
  */
-const MAX_ALLOWED_DELETIONS = 0;
+const MAX_ALLOWED_DELETIONS = 5;
 
 
 describe('stickers.yml', () => {
