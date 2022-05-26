@@ -45,9 +45,6 @@ jobs:
       - name: Build Project
         run: npx nps build
 
-      - name: Validate Manifest
-        run: npx nps test
-
       - name: Compile Sticker Pack Partials
         run: npx nps compile
 
